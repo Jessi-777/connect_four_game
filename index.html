@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Title Page-->
+    <title>Connect Four</title>
+
+    <!-- CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <h1 class="title">Connect4</h1>
+    <!-- <h1 class = "secTitle">Four</h1> -->
+    <h3 class="playerturn"></h3>
+    <table id="board" class="board">
+      <div class="sideOne"></div>
+      <div class="sideTwo"></div>
+      <tbody class="notButton">
+        <tr class="buttons notButton">
+          <td><button type="button" data-column="1"></button></td>
+          <td><button type="button" data-column="2"></button></td>
+          <td><button type="button" data-column="3"></button></td>
+          <td><button type="button" data-column="4"></button></td>
+          <td><button type="button" data-column="5"></button></td>
+          <td><button type="button" data-column="6"></button></td>
+          <td><button type="button" data-column="7"></button></td>
+        </tr>
+      </tbody>
+      <tbody class="table">
+        <tr data-level="6">
+          <td class="tData" data-column="1"></td>
+          <td class="tData" data-column="2"></td>
+          <td class="tData" data-column="3"></td>
+          <td class="tData" data-column="4"></td>
+          <td class="tData" data-column="5"></td>
+          <td class="tData" data-column="6"></td>
+          <td class="tData" data-column="7"></td>
+        </tr>
+        <tr data-level="5">
+          <td class="tData" data-column="1"></td>
+          <td class="tData" data-column="2"></td>
+          <td class="tData" data-column="3"></td>
+          <td class="tData" data-column="4"></td>
+          <td class="tData" data-column="5"></td>
+          <td class="tData" data-column="6"></td>
+          <td class="tData" data-column="7"></td>
+        </tr>
+        <tr data-level="4">
+          <td class="tData" data-column="1"></td>
+          <td class="tData" data-column="2"></td>
+          <td class="tData" data-column="3"></td>
+          <td class="tData" data-column="4"></td>
+          <td class="tData" data-column="5"></td>
+          <td class="tData" data-column="6"></td>
+          <td class="tData" data-column="7"></td>
+        </tr>
+        <tr data-level="3">
+          <td class="tData" data-column="1"></td>
+          <td class="tData" data-column="2"></td>
+          <td class="tData" data-column="3"></td>
+          <td class="tData" data-column="4"></td>
+          <td class="tData" data-column="5"></td>
+          <td class="tData" data-column="6"></td>
+          <td class="tData" data-column="7"></td>
+        </tr>
+        <tr data-level="2">
+          <td class="tData" data-column="1"></td>
+          <td class="tData" data-column="2"></td>
+          <td class="tData" data-column="3"></td>
+          <td class="tData" data-column="4"></td>
+          <td class="tData" data-column="5"></td>
+          <td class="tData" data-column="6"></td>
+          <td class="tData" data-column="7"></td>
+        </tr>
+        <tr data-level="1">
+          <td class="tData" data-column="1"></td>
+          <td class="tData" data-column="2"></td>
+          <td class="tData" data-column="3"></td>
+          <td class="tData" data-column="4"></td>
+          <td class="tData" data-column="5"></td>
+          <td class="tData" data-column="6"></td>
+          <td class="tData" data-column="7"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div id = "tableTop"></div>
+    <div id= textInstructions class = "instruction">instructions:</br> #1 Add player names.</br> The players name will be displayed when it is their turn.</br> 
+      Click on the thin layer button on top of the columns to insert disc's.</div>
+
+    <script src="code.js"></script>
+  </body>
+</html>
+
+
+
+<div class="container"> 
+  <div class="star"></div>
+  <div class="pressie">
+    <div class="cover"></div>
+    <div class="wrap"> </div>
+    <div class="ribbon"></div>
+  </div>
+  <div class="tree">
+    <div class="base"> </div>
+    <div class="layer">
+      <div class="line"> </div>
+      <div class="chip one"></div></div>
+    
+    <div class="layer two">
+      <div class="line two"> </div>
+      <div class="chip two"></div>
+      <div class="socks"> 
+        <div class="top"> </div>
+        <div class="foot"></div></div>
+      </div>
+    
+    <div class="layer three">
+      <div class="line three"> </div>
+      <div class="chip three"></div>
+      <div class="socks two"> 
+        <div class="top"> </div>
+        <div class="foot two"></div></div>
+      </div>
+       </div>
+    
+    <div class="layer four">
+      <div class="chip four"></div>
+      <div class="star two"></div>
+      <div class="line four"> </div> 
+       </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
