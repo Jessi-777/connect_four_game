@@ -1,0 +1,8 @@
+# connect_four_game
+
+- My favorite game to play with family and friends. ^_^
+- INSTRUCTIONS:
+- ADD PLAYER NAMES.
+- THE PLAYERS NAME WILL BE DISPLAYED WHEN IT IS THEIR TURN.
+- CLICK ON THE THIN LAYER BUTTON ON TOP OF THE COLUMNS TO INSERT DISC'S.
+- Have fun!
